@@ -11,4 +11,3 @@ h3Tags[0].style.background = 'rgb(165,0,244)';
 h3Tags[1].style.background = 'rgb(165,0,244)';
 h3Tags[2].style.background = 'rgb(35,37,36)';
 h3Tags[3].style.background = 'rgb(35,37,36)';
-

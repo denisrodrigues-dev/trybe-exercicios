@@ -8,22 +8,23 @@
       <p id="second-paragraph">Segundo parágrafo!</p>
     </header>
     <script>
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
+      const paragraph = document.getElementById('paragraph');
+      paragraph.style.color = 'red';
       // Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome de seu filme favorito.
-      const title  = document.getElementById("page-title");
+      const title = document.getElementById('page-title');
       title.innerText = 'Harry Potter e a Pedra Filosofal';
       // Depois, recupere o segundo parágrafo e use sua criatividade para alterá-lo.
-      const secondParagraph = document.getElementById("second-paragraph");
-      secondParagraph.innerText = 'Harry Potter e a Pedra Filosofal é um filme britano-americano de 2001, dos gêneros aventura e fantasia, dirigido por Chris Columbus, com roteiro de Steven Kloves baseado no livro homônimo de J. K. Rowling.'
+      const secondParagraph = document.getElementById('second-paragraph');
+      secondParagraph.innerText =
+        'Harry Potter e a Pedra Filosofal é um filme britano-americano de 2001, dos gêneros aventura e fantasia, dirigido por Chris Columbus, com roteiro de Steven Kloves baseado no livro homônimo de J. K. Rowling.';
       // Por fim, recupere o subtítulo e altere-o também.
-      const subtitle = document.getElementById("subtitle");
-      subtitle.innerText = 'Descrição do Filme'
+      const subtitle = document.getElementById('subtitle');
+      subtitle.innerText = 'Descrição do Filme';
       // Adicione uma classe igual para os dois parágrafos.
       paragraph.className = 'paragraph-class';
       secondParagraph.className = 'paragraph-class';
       // Recupere os parágrafos via código JavaScript usando a função getElementsByClassName.
-      const paragraphs = document.getElementsByClassName("paragraph-class");
+      const paragraphs = document.getElementsByClassName('paragraph-class');
       // Altere algum estilo do primeiro deles.
       paragraphs[0].style.fontSize = '25px';
       // Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName.
