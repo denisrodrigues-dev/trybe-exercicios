@@ -6,4 +6,4 @@ const emailListInData = [
 ];
   
 // Use o método forEach para exibir a lista de emails com a seguinte frase: O email ${email} está cadastrado em nosso banco de dados!
-emailListInData.forEach((email) => console.log(`O ${email} está cadastrado em nosso banco de dados!`));
+emailListInData.forEach((email) => console.log(`O email ${email} está cadastrado em nosso banco de dados!`));
