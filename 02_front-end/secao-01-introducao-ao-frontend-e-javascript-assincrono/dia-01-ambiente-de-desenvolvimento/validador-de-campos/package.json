@@ -1,0 +1,21 @@
+{
+  "name": "validador-de-campos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "author": "Dênis Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "validator": "^13.9.0"
+  },
+  "type": "module"
+}
