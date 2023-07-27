@@ -1,0 +1,13 @@
+// Cria uma nova branch.
+
+  git branch -b exercicio/fundamentos-01.03
+
+// Organize suas pastas de acordo com as instruções do Portfólio de Exercícios. Desse modo, você criará a estrutura de diretórios que serão usados ao longo de todo o curso para guardar seus exercícios.
+
+// Cria um README para inserir informações relacionadas ao curso.
+
+  touch README.md
+
+// Adiciona as alterações ao repositório
+
+  git push -u origin exercicio/fundamentos-01.03
