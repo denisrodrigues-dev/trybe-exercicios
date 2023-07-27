@@ -11,3 +11,7 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 - [x] 1-1: _Unix & Shell_
 - [x] 1-2: _GIT - O que é e para que serve_
 - [x] 1-3: _Git & GitHub - Entendendo os comandos_
+
+##### Seção 2: Introdução à HTML & CSS
+
+- [x] 2-1: _HTML & CSS - Estruturas de páginas_
