@@ -1,0 +1,75 @@
+// Parte I
+
+// Cria um diretório chamado unix_tests_search
+
+  mkdir unix_tests_search
+
+// Navega até a pasta unix_tests_search
+
+  cd unix_tests_search
+
+// Baixa o arquivo com o nome de todos os países do mundo utilizando o comando curl
+
+  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+// Mostra o conteúdo do arquivo countries.txt.
+
+  cat countries.txt
+
+// Mostra o conteúdo de countries.txt, página por página, até encontrar a Zambia.
+
+  less countries.txt
+
+// Mostra o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+
+  less countries.txt
+  /Zambia
+
+// Busca por Brazil no arquivo countries.txt.
+
+  grep Brazil countries.txt
+
+// Busca por brazil e utiliza o lower case para desconsiderar letras maiúsculas ou minúsculas.
+
+  grep -i brazil countries.txt
+
+// Parte II
+
+// Cria um arquivo chamado phrases.txt e adiciona algumas frases.
+
+  cat > phrases.txt
+
+// Busca frases que não contenham a palavra fox.
+
+  grep -v fox phrases.txt
+
+// Conta o número de palavras do arquivo phrases.txt.
+
+  wc -w phrases.txt
+
+// Conta o número de linhas do arquivo phrases.txt.
+
+  wc -l phrases.txt
+
+// Parte III
+
+// Cria os arquivos empty.tbt e empty.pdf.
+
+  touch empty.tbt
+  touch empty.pdf
+
+// Lista todos os arquivos do diretório unix_tests_search.
+
+  ls
+
+// Lista todos os arquivos que terminem com txt.
+
+  ls *txt
+
+// Lista todos os arquivos que terminem com tbt ou txt.
+
+  ls *t?t
+
+// Mostra o manual do comando ls.
+
+  man ls

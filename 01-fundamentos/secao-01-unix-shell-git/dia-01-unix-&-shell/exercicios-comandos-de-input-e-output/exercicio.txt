@@ -1,0 +1,57 @@
+// Cria o diretório unix_tests_skills e navega até ele.
+
+  mkdir unix_tests_skills
+  cd unix_tests_skills
+
+// Cria um arquivo de texto chamado skills2.txt e insere o texto Internet, Unix e Bash, cada um em uma linha.
+
+  touch skills2.txt
+  echo "Internet" >> skills2.txt
+  echo "Unix" >> skills2.txt
+  echo "Bash" >> skills2.txt
+
+// Insere mais 5 itens à lista de skills e mostra de forma ordenada.
+
+  echo "HTML" >> skills2.txt
+  echo "CSS" >> skills2.txt
+  echo "JavaScript" >> skills2.txt
+  echo "React" >> skills2.txt
+  echo "SQL" >> skills2.txt
+  sort < skills2.txt
+
+// Conta o número de linhas do arquivo skills2.txt.
+
+  cat skills2.txt | wc -l
+
+// Cria um arquivo chamado top_skills.txt utilizando as 3 primeiras skills em ordem alfabética do arquivo skills2.txt.
+
+  sort < skills2.txt | head -n 3 > top_skills.txt
+
+// Cria um arquivo chamado phrases2.txt e adiciona algumas frases.
+
+  touch phrases2.txt
+  echo "Os seres aos quais servimos de amparo são para nós um apoio na vida." > phrases2.txt
+  echo "A família é como um corrimão. Quando a subida está difícil, sempre temos em quem se apoiar!" >> phrases2.txt
+  echo "O luto é o preço que se paga pelo amor." >> phrases2.txt
+
+// Conta o número de linhas que contêm br.
+
+  grep br phrases2.txt | wc -l
+
+// Conta o número de linhas que não contêm br.
+
+  grep -v br phrases2.txt | wc -l
+
+// Adiciona dois países ao final do arquivo phrases2.txt.
+
+  echo "China" >> phrases2.txt
+  echo "Argentina" >> phrases2.txt
+
+// Cria um arquivo chamado bunch_of_things.txt com os arquivos phrases2.txt e countries.txt.
+
+  cp countries.txt bunch_of_things.txt
+  cat phrases2.txt >> bunch_of_things.txt
+
+// Ordena o arquivo bunch_of_things.txt.
+
+  sort bunch_of_things.txt -o bunch_of_things.txt

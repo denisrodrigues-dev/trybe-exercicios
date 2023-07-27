@@ -1,0 +1,78 @@
+// Cria um diretório chamado unix_tests e navega até ele.
+  
+  mkdir unix_tests
+  cd unix_tests
+
+// Cria um arquivo de texto com o nome trybe.
+
+  touch trybe.txt
+
+// Cria uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+  
+  cp trybe.txt trybe_backup.txt
+
+// Renomeie o arquivo trybe.txt.
+
+  mv trybe.txt outro_nome.txt
+
+// Cria um diretório chamado backup.
+
+  mkdir backup
+
+// Move o arquivo trybe_backup.txt para o diretório backup.
+
+  mv trybe_backup.txt backup
+
+// Cria um novo diretório chamado backup2.
+
+  mkdir backup2
+
+// Move o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+
+  mv backup/trybe_backup.txt backup2
+
+// Apaga a pasta backup.
+
+  rmdir backup
+
+// Renomeia a pasta backup2 para backup.
+
+  mv backup2 backup
+
+// Ve o path completo do diretório atual e lista os arquivos dentro dele.
+
+  pwd
+  ls
+
+// Apaga o diretório backup.
+
+  rm -rd backup
+
+// Limpa o terminal.
+
+  clear
+
+// Cria o arquivo skills.txt e inseri o texto abaixo
+
+ cat > skills.txt
+
+  Internet
+  Unix
+  Bash
+  HTML
+  CSS
+  JavaScript
+  React
+  SQL
+
+// Mostra as 5 primeiras skills do arquivo skills.txt.
+
+  head -n 5 skills.txt
+
+// Mostra as 4 últimas skills do arquivo skills.txt.
+
+  tail -n 4 skills.txt
+
+// Apaga todos os arquivos que terminam em .txt.
+
+  rm *.txt
