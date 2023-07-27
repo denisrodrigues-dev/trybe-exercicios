@@ -1,0 +1,70 @@
+// Cria uma pasta.
+
+  mkdir exercise
+
+// Acessa a pasta.
+
+  cd exercise
+
+// Inicia o versionamento.
+
+  git init
+
+// Abre a pasta no VS Code.
+
+  code .
+
+// Cria um arquivo readme.
+
+  touch README.md
+
+// Adiciona o arquivo em staging e realiza um commit.
+
+  git add .
+  git commit -m 'Primeiro commit'
+
+// Cria uma nova branch.
+
+  git checkout -b adiciona-readme
+
+// Realiza um novo commit com as alterações.
+
+  git add .
+  git commit -m 'Alterando o README'
+
+// Retorna para a branch main e realiza o merge das alterações.
+
+  git merge adiciona-readme
+
+// Acessa a branch main, cria uma nova chamada atualiza-readme e acessa essa nova branch.
+
+  git checkout main
+  git checkout -b atualiza-readme
+
+// Cria o arquivo infos.txt.
+
+  touch infos.txt
+
+// Adiciona as alterações em staging e realiza um commit.
+
+  git add .
+  git commit -m 'Adiciona o arquivo infos.txt'
+
+// Cria uma branch nova chamada adiciona-infos
+
+  git branch -b adiciona-infos
+
+// Adiciona as alterações em staging e realiza um commit.
+
+  git add .
+  git commit -m 'atualiza o arquivo infos'
+
+// Volta para a branch atualiza-readme e realiza o merge.
+
+  git checkout atualiza-readme
+  git merge adiciona-infos
+
+// Volta para a branch main e realiza o merge
+
+  git checkout main
+  git merge atualiza-readme

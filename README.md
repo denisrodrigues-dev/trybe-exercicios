@@ -8,4 +8,5 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 
 ##### Seção 1: Unix, Shell & Git
 
-- [ ] 1-1: _Unix & Shell_
+- [x] 1-1: _Unix & Shell_
+- [x] 1-2: _GIT - O que é e para que serve_
