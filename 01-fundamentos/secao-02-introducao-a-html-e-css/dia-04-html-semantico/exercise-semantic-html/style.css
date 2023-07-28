@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 173, 173);
+}
+
+header {
+    background-color: rgb(175, 144, 144);
+    margin-top: -200px;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+header h1 {
+    padding-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+nav > a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    background-color: rgb(155, 126, 126);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+article {
+    margin-top: 200px;
+    text-align: center;
+}
+
+article section img {
+    width: 300px;
+    border-radius: 10%;
+}
+
+article h2 {
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+article h3 {
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+article p {
+    margin: 30px 30%;
+    font-family: 'Braah One', sans-serif;
+}
+
+article section ul {
+    margin-top: -20px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+aside {
+    position: absolute;
+    bottom: -200px;
+    text-align: center;
+    left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(175, 144, 144);
+    padding: 10px;
+}

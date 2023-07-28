@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+} 
+
+.first {
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+}
+
+.second {
+  display: inline-block;
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.third {
+  display: inline-block;
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
