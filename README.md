@@ -15,3 +15,4 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 ##### Seção 2: Introdução à HTML & CSS
 
 - [x] 2-1: _HTML & CSS - Estruturas de páginas_
+- [x] 2-2: _HTML & CSS - Primeiros passos em CSS_
