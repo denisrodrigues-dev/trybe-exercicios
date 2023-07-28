@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: gray;
+}
+
+.container-photo {
+  border: 1px solid red;
+  display: inline-block;
+  width: 50%;
+  background-color: green;
+}
+
+.container-about {
+
+  display: inline-block;
+  width: 49%;
+}
+
+/* Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página; */
+img {
+  width: 300px;
+  padding: 2px;
+  margin-left: 80px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  top: 200;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* Coloque estilo somente nos itens ímpares da lista das suas habilidades. */
+ul > li:nth-of-type(odd) {
+  font-weight: bold;
+}

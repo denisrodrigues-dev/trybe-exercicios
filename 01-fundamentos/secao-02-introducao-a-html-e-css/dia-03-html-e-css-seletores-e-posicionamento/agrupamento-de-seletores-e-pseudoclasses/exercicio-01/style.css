@@ -1,0 +1,16 @@
+h1, p {
+  /* O texto das tags ‘h1’ e ‘p’ estejam centralizados. */
+  text-align: center;
+}
+
+ol:hover, ul:hover  {
+  background-color: red;
+}
+
+li:active {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
