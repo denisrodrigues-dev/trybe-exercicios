@@ -21,5 +21,5 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 
 ##### Seção 3: Introdução à JavaScript
 
-- [x] 2-1: _Primeiros passos no JavaScript_
-- [x] 2-2: _Array e estrutura de repetição_
+- [x] 3-1: _Primeiros passos no JavaScript_
+- [x] 3-2: _Array e estrutura de repetição_
