@@ -16,3 +16,10 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 
 - [x] 2-1: _HTML & CSS - Estruturas de páginas_
 - [x] 2-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 2-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 2-4: _HTML Semântico_
+
+##### Seção 3: Introdução à JavaScript
+
+- [x] 2-1: _Primeiros passos no JavaScript_
+- [x] 2-2: _Array e estrutura de repetição_
