@@ -25,3 +25,10 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 - [x] 3-2: _Array e estrutura de repetição_
 - [x] 3-3: _Funções_
 - [x] 3-4: _Objetos_
+
+##### Seção 4: Javascript: DOM, Eventos e Web Storage
+
+- [x] 4-1: _JavaScript - DOM e seletores_
+- [x] 4-2: _Javascript - Trabalhando com elementos_
+- [x] 4-3: _Javascript - Eventos_
+- [x] 4-4: _Javascript - Web Storage_
