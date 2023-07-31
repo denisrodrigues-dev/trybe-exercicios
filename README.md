@@ -24,7 +24,6 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 - [x] 3-1: _Primeiros passos no JavaScript_
 - [x] 3-2: _Array e estrutura de repetição_
 - [x] 3-3: _Funções_
-<<<<<<< HEAD
 - [x] 3-4: _Objetos_
 
 ##### Seção 4: Javascript: DOM, Eventos e Web Storage
@@ -33,6 +32,3 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 - [x] 4-2: _Javascript - Trabalhando com elementos_
 - [x] 4-3: _Javascript - Eventos_
 - [x] 4-4: _Javascript - Web Storage_
-=======
-- [x] 3-4: _Objetos_
->>>>>>> 9dc9976282aa235dc9a70c1fcc40031b947f923c
