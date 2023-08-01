@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(207, 221, 207);
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  border: 3px dashed rgb(190, 176, 176);
+  background-color: rgb(225, 225, 238);
+}
+
+div {
+  margin: 20px;
+}
+
+button {
+  margin-top: 15px;
+  width: 40%;
+}
+
+.container-button {
+  text-align: center;
+}
+
+h1 {
+  margin: 30px 0;
+}
