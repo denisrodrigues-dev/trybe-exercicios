@@ -39,3 +39,9 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 - [x] 5-3: _CSS Flexbox - Parte 1_
 - [x] 5-4: _CSS Flexbox - Parte 2_
 - [x] 5-5: _Responsividade_
+
+##### Seção 6: Introdução à JavaScript ES6 e Testes Unitários
+
+- [x] 6-1: _Fluxo de exceções_
+- [x] 6-2: _Primeiros passos em Jest_
+- [x] 6-3: _Matchers e cobertura de código_
