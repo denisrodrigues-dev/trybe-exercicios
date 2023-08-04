@@ -45,3 +45,10 @@ _"O programa conta com mais de 1500 horas de aulas presencias e online, aborda i
 - [x] 6-1: _Fluxo de exceções_
 - [x] 6-2: _Primeiros passos em Jest_
 - [x] 6-3: _Matchers e cobertura de código_
+
+##### Seção 7: Métodos de Array
+
+- [x] 7-1: _Métodos de Array - map_
+- [x] 7-2: _Métodos de Array - filter e sort_
+- [x] 7-3: _Métodos de Array - find e forEach_
+- [x] 7-4: _Métodos de Array - reduce_
