@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+  <title>Validador de Campos</title>
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <form>
+      <h1>Validador de Campos</h1>
+      <input type="text" placeholder="Digite aqui o valor" id="input-value">
+
+      <select name="field-validator" id="option">
+        <option value="cpf">CPF</option>
+        <option value="email">email</option>
+        <option value="rgb">RGB</option>
+        <option value="url">URL</option>
+        <option value="uppercase">Uppercase</option>
+      </select>
+      <button type="submit" id="btn-submit">Validar</button>
+      <p id="result-validator">Digite o valor, escolha a opção e clique em validar</p>
+    </form>
+
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
