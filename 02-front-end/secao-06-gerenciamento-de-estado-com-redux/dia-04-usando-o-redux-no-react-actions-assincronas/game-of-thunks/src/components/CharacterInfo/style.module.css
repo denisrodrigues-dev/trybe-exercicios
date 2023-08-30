@@ -1,0 +1,29 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer h2 {
+  color: white;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.mainContainer h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: rgb(211, 216, 221);
+  border: 1px solid rgb(99, 96, 96);
+}
+
+.mainContainer li {
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+  border: 1px solid rgb(99, 96, 96);
+}
+
+.sectionInfo {
+  width: 50%;
+  background-color: #afacb1;
+}
